@@ -21,6 +21,15 @@ function getelementatpos(tab, sp)
     return tab[getindexatpos(tab, sp)]
 end
 
+function has_value(tab, val)
+    for index, value in ipairs(tab) do
+        if value == val then
+            return true
+        end
+    end
+    return false
+end
+
 function GetValidPlotsFromPlotIndexTable(tTable)
     local tNewTable = {}
     local iCount = 1
@@ -208,8 +217,6 @@ local iTargetNumberOceanPlotsPerAnimal = 140
 local tOceanPlots, iNumberOceanPlots, bNoMoreSeaUnitsCanBeSpawned = {}, 1, true
 local iOceanTile = GameInfo.Terrains["TERRAIN_OCEAN"].Index
 
-local tSpawnableOceanUnits = {}
-
 for i = 0, Map.GetPlotCount() - 1, 1 do
     local pPlot = Map.GetPlotByIndex(i);
     if (pPlot ~= nil) and (pPlot:GetTerrainType() == iOceanTile) and (pPlot:GetOwner() == -1) and (pPlot:IsNaturalWonder() == false) then
@@ -219,10 +226,7 @@ for i = 0, Map.GetPlotCount() - 1, 1 do
     end
 end
 
-local tBarbOceanUnitTypes = {}
-for k, v in ipairs(tSpawnableOceanUnits) do
-    tBarbOceanUnitTypes[v] = "true"
-end
+local tSpawnableOceanUnits = {}
 
 function GetSpawnableOceanUnits()
     if tSpawnableOceanUnits == nil then
@@ -253,7 +257,7 @@ function GetNumberAllowedOceanPredators(iPlayer)
     local pUnits = pPlayer:GetUnits()
     local iNumberAliveUnits = 0
     for i, pUnit in pUnits:Members() do
-        if tBarbOceanUnitTypes[pUnit:GetType()] and not pUnit:IsDead() and not pUnit:IsDelayedDeath() then
+        if has_value(tSpawnableOceanUnits, pUnit:GetType()) and not pUnit:IsDead() and not pUnit:IsDelayedDeath() then
             iNumberAliveUnits = iNumberAliveUnits + 1
         end
     end
@@ -294,10 +298,13 @@ function SpawnOceanPredators(iPlayer)
                     end
                     if (bPlotHasUnit == false) then
                         local spawnableOceanUnits = GetSpawnableOceanUnits()
-                        local iUnitToSpawn = spawnableOceanUnits[math.random(table.count(spawnableOceanUnits))]
-                        local pUnits = pPlayer:GetUnits()
-                        pUnits:Create(iUnitToSpawn, iPlotX, iPlotY); -- Create Unit
-                        iNumberToSpawnThisTurn = iNumberToSpawnThisTurn - 1
+                        local unitTypeToSpawn = spawnableOceanUnits[math.random(table.count(spawnableOceanUnits))]
+                        if UnitCanSpawnInCurrentEra(unitTypeToSpawn) then
+                            local iUnitToSpawn = GameInfo.Units[unitTypeToSpawn].Index
+                            local pUnits = pPlayer:GetUnits()
+                            pUnits:Create(iUnitToSpawn, iPlotX, iPlotY); -- Create Unit
+                            iNumberToSpawnThisTurn = iNumberToSpawnThisTurn - 1
+                        end
                     end
                 else
                     table.remove(tOceanPlots, iSelectedTableKey)

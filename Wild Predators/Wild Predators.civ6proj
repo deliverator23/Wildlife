@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Wild Predators</Name>
+    <Guid>669ac0f9-70b5-4f3c-b7fa-d2f36297c00a</Guid>
+    <ProjectGuid>a06507f3-381e-49d2-aa7e-973bc1cfb7b6</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This mod brings Wildlife to Civ6</Teaser>
+    <Description>This mod brings Wildlife to Civ6.</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="WildPredators_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="WildPredators_Gameplay"><File>WildPredators_Units.xml</File><File>Wild_Predators_no_embarking.sql</File><File>Wild_Animals_Spawn.sql</File></UpdateDatabase><UpdateIcons id="WildPredators_Icons"><File>WildPredators_Icons.xml</File></UpdateIcons><UpdateText id="WildPredators_Text"><File>WildPredators_Text.xml</File></UpdateText><AddGameplayScripts id="WildPredators_Lua"><File>LUA/Wild_Predators.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
+    <AssemblyName>Wild Predators</AssemblyName>
+    <RootNamespace>Wild Predators</RootNamespace>
+    <Authors>ShiroToraRyu, Deliverator, LeeS</Authors>
+    <SpecialThanks>raen, Tiramisu, Civitar</SpecialThanks>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="WildPredators_Config_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="WildPredators_Config_Icons"><File>WildPredators_Icons.xml</File></UpdateIcons></FrontEndActions>]]></FrontEndActionData>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <ArtDef Include="ArtDefs\Units.artdef" />
+    <Folder Include="LUA\" />
+    <Folder Include="XLPs\" />
+    <None Include="Mod.Art.xml" />
+    <None Include="GettingStarted.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ArtDef Include="ArtDefs\Unit_Bins.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <Content Include="LUA\Wild_Predators.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="WildPredators_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="WildPredators_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="WildPredators_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Wild_Animals_Spawn.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Wild_Predators_no_embarking.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <XLP Include="XLPs\animals.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\wolf.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\bears.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\rhinoceros.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\wildcats.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\WildPredators_Icons.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

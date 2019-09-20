@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>415</build>
+		<revision>990</revision>
+	</m_Version>
+	<m_ClassName text="Unit"/>
+	<m_PackageName text="bears"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="GrizzlyBear"/>
+			<m_ObjectName text="GrizzlyBear"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PolarBear"/>
+			<m_ObjectName text="PolarBear"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Panda"/>
+			<m_ObjectName text="Panda"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BlackBear"/>
+			<m_ObjectName text="BlackBear"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SpectacledBear"/>
+			<m_ObjectName text="SpectacledBear"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

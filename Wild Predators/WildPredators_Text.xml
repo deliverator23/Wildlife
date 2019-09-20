@@ -1,0 +1,1699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+
+    <Row Tag="LOC_UNIT_ANIMAL_PUMA_NAME" Language="en_US">
+      <Text>Puma</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_PUMA_DESCRIPTION" Language="en_US">
+      <Text>a wild Puma</Text>
+    </Row>
+	
+	 <Row Tag="LOC_UNIT_BIGCATS_LEOPARD_NAME" Language="en_US">
+      <Text>Leopard</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_LEOPARD_DESCRIPTION" Language="en_US">
+      <Text>a wild Leopard</Text>
+    </Row>
+	
+		 <Row Tag="LOC_UNIT_BIGCATS_SNOW_LEOPARD_NAME" Language="en_US">
+      <Text>Snow Leopard</Text>
+    </Row>
+	
+    <Row Tag="LOC_UNIT_BIGCATS_SNOW_LEOPARD_DESCRIPTION" Language="en_US">
+      <Text>a wild Snow Leopard</Text>
+    </Row>	
+	
+    <Row Tag="LOC_UNIT_ANIMAL_GRIZZLYBEAR_NAME" Language="en_US">
+      <Text>Bear</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_GRIZZLYBEAR_DESCRIPTION" Language="en_US">
+      <Text>a wild Bear</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_POLARBEAR_NAME" Language="en_US">
+      <Text>Polar Bear</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_POLARBEAR_DESCRIPTION" Language="en_US">
+      <Text>a wild Polar Bear</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_PANDA_NAME" Language="en_US">
+      <Text>Panda</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_PANDA_DESCRIPTION" Language="en_US">
+      <Text>a wild Panda</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_GORILLA_NAME" Language="en_US">
+      <Text>Gorilla</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_GORILLA_DESCRIPTION" Language="en_US">
+      <Text>a wild Gorilla</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HYENA_NAME" Language="en_US">
+      <Text>Hyena</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HYENA_DESCRIPTION" Language="en_US">
+      <Text>a wild Hyena</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_RHINOCEROS_NAME" Language="en_US">
+      <Text>Rhinoceros</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_RHINOCEROS_DESCRIPTION" Language="en_US">
+      <Text>a wild Rhinoceros</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HIPPO_NAME" Language="en_US">
+      <Text>Hippo</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HIPPO_DESCRIPTION" Language="en_US">
+      <Text>a wild Hippo</Text>
+    </Row>	
+	
+    <Row Tag="LOC_UNIT_BIGCATS_LION_NAME" Language="en_US">
+      <Text>Lion</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_LION_DESCRIPTION" Language="en_US">
+      <Text>a wild Lion</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_JAGUAR_NAME" Language="en_US">
+      <Text>Jaguar</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_JAGUAR_DESCRIPTION" Language="en_US">
+      <Text>a wild Jaguar</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_PANTHER_NAME" Language="en_US">
+      <Text>Panther</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_PANTHER_DESCRIPTION" Language="en_US">
+      <Text>a wild Panther</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_TIGER_NAME" Language="en_US">
+      <Text>Tiger</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_TIGER_DESCRIPTION" Language="en_US">
+      <Text>a wild Tiger</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_WHITE_TIGER_NAME" Language="en_US">
+      <Text>White Tiger</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_WHITE_TIGER_DESCRIPTION" Language="en_US">
+      <Text>a wild White Tiger</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_WOLF_NAME" Language="en_US">
+      <Text>Wolf</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_WOLF_DESCRIPTION" Language="en_US">
+      <Text>a wild Wolf</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_MANEDWOLF_NAME" Language="en_US">
+      <Text>Maned Wolf</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_MANEDWOLF_DESCRIPTION" Language="en_US">
+      <Text>a wild Maned Wolf</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_BLACKBEAR_NAME" Language="en_US">
+      <Text>Black Bear</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_BLACKBEAR_DESCRIPTION" Language="en_US">
+      <Text>a wild Black Bear</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_SPECTACLEDBEAR_NAME" Language="en_US">
+      <Text>Spectacled Bear</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_SPECTACLEDBEAR_DESCRIPTION" Language="en_US">
+      <Text>a wild Spectacled Bear</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_JACKAL_NAME" Language="en_US">
+      <Text>Jackal</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_JACKAL_DESCRIPTION" Language="en_US">
+      <Text>a wild Jackal</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_DINGO_NAME" Language="en_US">
+      <Text>Dingo</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_DINGO_DESCRIPTION" Language="en_US">
+      <Text>a wild Dingo</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_TASMANIANWOLF_NAME" Language="en_US">
+      <Text>Tasmanian Wolf</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_TASMANIANWOLF_DESCRIPTION" Language="en_US">
+      <Text>a wild Tasmanian Wolf</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_AMERICANCROCODILE_NAME" Language="en_US">
+      <Text>American Crocodile</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_AMERICANCROCODILE_DESCRIPTION" Language="en_US">
+      <Text>a wild American Crocodile</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_BLACKCAIMAN_NAME" Language="en_US">
+      <Text>Black Caiman</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_BLACKCAIMAN_DESCRIPTION" Language="en_US">
+      <Text>a wild Black Caiman</Text>
+    </Row>	
+
+  <Row Tag="LOC_UNIT_ANIMAL_MANTA_NAME" Language="en_US">
+      <Text>Manta</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_MANTA_DESCRIPTION" Language="en_US">
+      <Text>a wild Manta</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_ORCA_NAME" Language="en_US">
+      <Text>Orca</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_ORCA_DESCRIPTION" Language="en_US">
+      <Text>a wild Orca</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_TIGERSHARK_NAME" Language="en_US">
+      <Text>Tiger Shark</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_TIGERSHARK_DESCRIPTION" Language="en_US">
+      <Text>a wild Tiger Shark</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_BULLSHARK_NAME" Language="en_US">
+      <Text>Bull Shark</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_BULLSHARK_DESCRIPTION" Language="en_US">
+      <Text>a wild Bull Shark</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_HAMMERHEAD_NAME" Language="en_US">
+      <Text>Hammerhead</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HAMMERHEAD_DESCRIPTION" Language="en_US">
+      <Text>a wild Hammerhead</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_WHITESHARK_NAME" Language="en_US">
+      <Text>White Shark</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_WHITESHARK_DESCRIPTION" Language="en_US">
+      <Text>a wild White Shark</Text>
+    </Row>	
+
+  <Row Tag="LOC_UNIT_ANIMAL_KRAKEN_NAME" Language="en_US">
+      <Text>Kraken</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_KRAKEN_DESCRIPTION" Language="en_US">
+      <Text>a wild Kraken</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_HUMPBACK_WHALE_NAME" Language="en_US">
+      <Text>Humpback Whale</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HUMPBACK_WHALE_DESCRIPTION" Language="en_US">
+      <Text>a wild Humpback Whale</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_CHEETAH_NAME" Language="en_US">
+      <Text>Cheetah</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_CHEETAH_DESCRIPTION" Language="en_US">
+      <Text>a wild Cheetah</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_FRESHWATER_CROCODILE_NAME" Language="en_US">
+      <Text>Freshwater Crocodile</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_FRESHWATER_CROCODILE_DESCRIPTION" Language="en_US">
+      <Text>a wild Freshwater Crocodile</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_NILE_CROCODILE_NAME" Language="en_US">
+      <Text>Nile Crocodile</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_NILE_CROCODILE_DESCRIPTION" Language="en_US">
+      <Text>a wild Nile Crocodile</Text>
+    </Row>		
+	
+	
+	
+
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BARBARIANS_OCEAN_NAME" Language="en_US">
+      <Text>Ocean Animal</Text>
+    </Row>	
+
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BARBARIANS_OCEAN_DESCRIPTION" Language="en_US">
+      <Text>Can move in the Ocean</Text>
+    </Row>	
+	
+	
+		
+	
+		
+    <Row Tag="LOC_UNIT_ANIMAL_PUMA_NAME" Language="de_DE">
+      <Text>Puma</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_PUMA_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Puma</Text>
+    </Row>
+	
+	 <Row Tag="LOC_UNIT_BIGCATS_LEOPARD_NAME" Language="de_DE">
+      <Text>Leopard</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_LEOPARD_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Leopard</Text>
+    </Row>
+	
+		 <Row Tag="LOC_UNIT_BIGCATS_SNOW_LEOPARD_NAME" Language="de_DE">
+      <Text>Schneeleopard</Text>
+    </Row>
+	
+    <Row Tag="LOC_UNIT_BIGCATS_SNOW_LEOPARD_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Schneeleopard</Text>
+    </Row>	
+	
+    <Row Tag="LOC_UNIT_ANIMAL_GRIZZLYBEAR_NAME" Language="de_DE">
+      <Text>Bär</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_GRIZZLYBEAR_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Bär</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_POLARBEAR_NAME" Language="de_DE">
+      <Text>Eisbär</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_POLARBEAR_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Eisbär</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_PANDA_NAME" Language="de_DE">
+      <Text>Panda</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_PANDA_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Panda</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_GORILLA_NAME" Language="de_DE">
+      <Text>Gorilla</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_GORILLA_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Gorilla</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HYENA_NAME" Language="de_DE">
+      <Text>Hyäne</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HYENA_DESCRIPTION" Language="de_DE">
+      <Text>eine wilde Hyäne</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_RHINOCEROS_NAME" Language="de_DE">
+      <Text>Nashorn</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_RHINOCEROS_DESCRIPTION" Language="de_DE">
+      <Text>ein wildes Nashorn</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HIPPO_NAME" Language="de_DE">
+      <Text>Flusspferd</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HIPPO_DESCRIPTION" Language="de_DE">
+      <Text>ein wildes Flusspferd</Text>
+    </Row>	
+	
+    <Row Tag="LOC_UNIT_BIGCATS_LION_NAME" Language="de_DE">
+      <Text>Löwe</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_LION_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Löwe</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_JAGUAR_NAME" Language="de_DE">
+      <Text>Jaguar</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_JAGUAR_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Jaguar</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_PANTHER_NAME" Language="de_DE">
+      <Text>Panther</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_PANTHER_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Panther</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_TIGER_NAME" Language="de_DE">
+      <Text>Tiger</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_TIGER_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Tiger</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_WHITE_TIGER_NAME" Language="de_DE">
+      <Text>Weisser Tiger</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_WHITE_TIGER_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Weisser Tiger</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_WOLF_NAME" Language="de_DE">
+      <Text>Wolf</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_WOLF_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Wolf</Text>
+    </Row>	
+
+    <Row Tag="LOC_UNIT_ANIMAL_MANEDWOLF_NAME" Language="de_DE">
+      <Text>Mähnenwolf</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_MANEDWOLF_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Mähnenwolf</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_BLACKBEAR_NAME" Language="de_DE">
+      <Text>Schwarzbär</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_BLACKBEAR_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Schwarzbär</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_SPECTACLEDBEAR_NAME" Language="de_DE">
+      <Text>Brillenbär</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_SPECTACLEDBEAR_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Brillenbär</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_JACKAL_NAME" Language="de_DE">
+      <Text>Schakal</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_JACKAL_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Schakal</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_DINGO_NAME" Language="de_DE">
+      <Text>Dingo</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_DINGO_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Dingo</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_TASMANIANWOLF_NAME" Language="de_DE">
+      <Text>Tasmanischer Wolf</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_TASMANIANWOLF_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Tasmanischer Wolf</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_AMERICANCROCODILE_NAME" Language="de_DE">
+      <Text>Spitzkrokodil</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_AMERICANCROCODILE_DESCRIPTION" Language="de_DE">
+      <Text>ein wildes Spitzkrokodil</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_BLACKCAIMAN_NAME" Language="de_DE">
+      <Text>Schwarzer Kaiman</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_BLACKCAIMAN_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Schwarzer Kaiman</Text>
+    </Row>		
+
+  <Row Tag="LOC_UNIT_ANIMAL_MANTA_NAME" Language="de_DE">
+      <Text>Manta</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_MANTA_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Manta</Text>
+    </Row>
+	
+  <Row Tag="LOC_UNIT_ANIMAL_ORCA_NAME" Language="de_DE">
+      <Text>Orca</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_ORCA_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Orca</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_TIGERSHARK_NAME" Language="de_DE">
+      <Text>Tigerhai</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_TIGERSHARK_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Tigerhai</Text>
+    </Row>	
+
+  <Row Tag="LOC_UNIT_ANIMAL_BULLSHARK_NAME" Language="de_DE">
+      <Text>Bullenhai</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_BULLSHARK_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Bullenhai</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_HAMMERHEAD_NAME" Language="de_DE">
+      <Text>Hammerhai</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HAMMERHEAD_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Hammerhai</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_WHITESHARK_NAME" Language="de_DE">
+      <Text>Weisser Hai</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_WHITESHARK_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Weisser Hai</Text>
+    </Row>	
+
+  <Row Tag="LOC_UNIT_ANIMAL_KRAKEN_NAME" Language="de_DE">
+      <Text>Kraken</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_KRAKEN_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Kraken</Text>
+    </Row>	
+
+  <Row Tag="LOC_UNIT_ANIMAL_HUMPBACK_WHALE_NAME" Language="de_DE">
+      <Text>Buckelwal</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HUMPBACK_WHALE_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Buckelwal</Text>
+    </Row>	
+
+  <Row Tag="LOC_UNIT_ANIMAL_CHEETAH_NAME" Language="de_DE">
+      <Text>Gepard</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_CHEETAH_DESCRIPTION" Language="de_DE">
+      <Text>ein wilder Gepard</Text>
+    </Row>
+	
+  <Row Tag="LOC_UNIT_ANIMAL_FRESHWATER_CROCODILE_NAME" Language="de_DE">
+      <Text>Australien-Krokodil</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_FRESHWATER_CROCODILE_DESCRIPTION" Language="de_DE">
+      <Text>ein wildes Australien-Krokodil</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_NILE_CROCODILE_NAME" Language="de_DE">
+      <Text>Nilkrokodil</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_NILE_CROCODILE_DESCRIPTION" Language="de_DE">
+      <Text>ein wildes Nilkrokodil</Text>
+    </Row>		
+
+		
+
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BARBARIANS_OCEAN_NAME" Language="de_DE">
+      <Text>Meerestier</Text>
+    </Row>	
+
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BARBARIANS_OCEAN_DESCRIPTION" Language="de_DE">
+      <Text>Kann den Ozean durchqueren</Text>
+    </Row>
+
+
+    <Row Tag="LOC_UNIT_ANIMAL_PUMA_NAME" Language="ru_RU">
+      <Text>Пума</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_PUMA_DESCRIPTION" Language="ru_RU">
+      <Text>дикая Пума</Text>
+    </Row>
+	
+	 <Row Tag="LOC_UNIT_BIGCATS_LEOPARD_NAME" Language="ru_RU">
+      <Text>Леопард</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_LEOPARD_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Леопард</Text>
+    </Row>
+	
+		 <Row Tag="LOC_UNIT_BIGCATS_SNOW_LEOPARD_NAME" Language="ru_RU">
+      <Text>Ирбис</Text>
+    </Row>
+	
+    <Row Tag="LOC_UNIT_BIGCATS_SNOW_LEOPARD_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Ирбис</Text>
+    </Row>	
+	
+    <Row Tag="LOC_UNIT_ANIMAL_GRIZZLYBEAR_NAME" Language="ru_RU">
+      <Text>Медведь</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_GRIZZLYBEAR_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Медведь</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_POLARBEAR_NAME" Language="ru_RU">
+      <Text>Белый Медведь</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_POLARBEAR_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Белый Медведь</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_PANDA_NAME" Language="ru_RU">
+      <Text>Панда</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_PANDA_DESCRIPTION" Language="ru_RU">
+      <Text>дикая Панда</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_GORILLA_NAME" Language="ru_RU">
+      <Text>Горилла</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_GORILLA_DESCRIPTION" Language="ru_RU">
+      <Text>дикая Горилла</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HYENA_NAME" Language="ru_RU">
+      <Text>Гиена</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HYENA_DESCRIPTION" Language="ru_RU">
+      <Text>дикая Гиена</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_RHINOCEROS_NAME" Language="ru_RU">
+      <Text>Носорог</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_RHINOCEROS_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Носорог</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HIPPO_NAME" Language="ru_RU">
+      <Text>Бегемот</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HIPPO_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Бегемот</Text>
+    </Row>	
+	
+    <Row Tag="LOC_UNIT_BIGCATS_LION_NAME" Language="ru_RU">
+      <Text>Лев</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_LION_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Лев</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_JAGUAR_NAME" Language="ru_RU">
+      <Text>Ягуар</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_JAGUAR_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Ягуар</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_PANTHER_NAME" Language="ru_RU">
+      <Text>Пантера</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_PANTHER_DESCRIPTION" Language="ru_RU">
+      <Text>дикая Пантера</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_TIGER_NAME" Language="ru_RU">
+      <Text>Тигр</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_TIGER_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Тигр</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_WHITE_TIGER_NAME" Language="ru_RU">
+      <Text>Белый Тигр</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_WHITE_TIGER_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Белый Тигр</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_WOLF_NAME" Language="ru_RU">
+      <Text>Волк</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_WOLF_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Волк</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_MANEDWOLF_NAME" Language="ru_RU">
+      <Text>Гривистый Волк</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_MANEDWOLF_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Гривистый Волк</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_BLACKBEAR_NAME" Language="ru_RU">
+      <Text>Барибал</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_BLACKBEAR_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Барибал</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_SPECTACLEDBEAR_NAME" Language="ru_RU">
+      <Text>Очковый Медведь</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_SPECTACLEDBEAR_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Очковый Медведь</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_JACKAL_NAME" Language="ru_RU">
+      <Text>Шакал</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_JACKAL_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Шакал</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_DINGO_NAME" Language="ru_RU">
+      <Text>Динго</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_DINGO_DESCRIPTION" Language="ru_RU">
+      <Text>дикая Собака Динго</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_TASMANIANWOLF_NAME" Language="ru_RU">
+      <Text>Сумчатый Волк</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_TASMANIANWOLF_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Сумчатый Волк</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_AMERICANCROCODILE_NAME" Language="ru_RU">
+      <Text>Острорылый Крокодил</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_AMERICANCROCODILE_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Острорылый Крокодил</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_BLACKCAIMAN_NAME" Language="ru_RU">
+      <Text>Черный Кайман</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_BLACKCAIMAN_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Черный Кайман</Text>
+    </Row>	
+
+  <Row Tag="LOC_UNIT_ANIMAL_MANTA_NAME" Language="ru_RU">
+      <Text>Манта</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_MANTA_DESCRIPTION" Language="ru_RU">
+      <Text>дикая Манта</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_ORCA_NAME" Language="ru_RU">
+      <Text>Косатка</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_ORCA_DESCRIPTION" Language="ru_RU">
+      <Text>дикая Косатка</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_TIGERSHARK_NAME" Language="ru_RU">
+      <Text>Тигровая Акула</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_TIGERSHARK_DESCRIPTION" Language="ru_RU">
+      <Text>дикая Тигровая Акула</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_BULLSHARK_NAME" Language="ru_RU">
+      <Text>Акула-бык</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_BULLSHARK_DESCRIPTION" Language="ru_RU">
+      <Text>дикая Акула-бык</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_HAMMERHEAD_NAME" Language="ru_RU">
+      <Text>Акула-молот</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HAMMERHEAD_DESCRIPTION" Language="ru_RU">
+      <Text>дикая Акула-молот</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_WHITESHARK_NAME" Language="ru_RU">
+      <Text>Большая Белая Акула</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_WHITESHARK_DESCRIPTION" Language="ru_RU">
+      <Text>дикая Большая Белая Акула</Text>
+    </Row>	
+
+  <Row Tag="LOC_UNIT_ANIMAL_KRAKEN_NAME" Language="ru_RU">
+      <Text>Кракен</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_KRAKEN_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Кракен</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_HUMPBACK_WHALE_NAME" Language="ru_RU">
+      <Text>Горбатый Кит</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HUMPBACK_WHALE_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Горбатый Кит</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_CHEETAH_NAME" Language="ru_RU">
+      <Text>Гепард</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_CHEETAH_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Гепард</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_FRESHWATER_CROCODILE_NAME" Language="ru_RU">
+      <Text>Пресноводный Крокодил</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_FRESHWATER_CROCODILE_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Пресноводный Крокодил</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_NILE_CROCODILE_NAME" Language="ru_RU">
+      <Text>Нильский Крокодил</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_NILE_CROCODILE_DESCRIPTION" Language="ru_RU">
+      <Text>дикий Нильский Крокодил</Text>
+    </Row>		
+	
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BARBARIANS_OCEAN_NAME" Language="ru_RU">
+      <Text>Морское Животное</Text>
+    </Row>	
+
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BARBARIANS_OCEAN_DESCRIPTION" Language="ru_RU">
+      <Text>Может двигаться в океане</Text>
+    </Row>	
+	
+
+	
+	
+	
+    <Row Tag="LOC_UNIT_ANIMAL_PUMA_NAME" Language="ko_KR">
+      <Text>퓨마</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_PUMA_DESCRIPTION" Language="ko_KR">
+      <Text>야생 퓨마</Text>
+    </Row>
+	
+	 <Row Tag="LOC_UNIT_BIGCATS_LEOPARD_NAME" Language="ko_KR">
+      <Text>표범</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_LEOPARD_DESCRIPTION" Language="ko_KR">
+      <Text>야생 표범</Text>
+    </Row>
+	
+		 <Row Tag="LOC_UNIT_BIGCATS_SNOW_LEOPARD_NAME" Language="ko_KR">
+      <Text>눈표범</Text>
+    </Row>
+	
+    <Row Tag="LOC_UNIT_BIGCATS_SNOW_LEOPARD_DESCRIPTION" Language="ko_KR">
+      <Text>야생 눈표범</Text>
+    </Row>	
+	
+    <Row Tag="LOC_UNIT_ANIMAL_GRIZZLYBEAR_NAME" Language="ko_KR">
+      <Text>곰</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_GRIZZLYBEAR_DESCRIPTION" Language="ko_KR">
+      <Text>야생 곰</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_POLARBEAR_NAME" Language="ko_KR">
+      <Text>북극곰</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_POLARBEAR_DESCRIPTION" Language="ko_KR">
+      <Text>야생 북극곰</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_PANDA_NAME" Language="ko_KR">
+      <Text>판다</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_PANDA_DESCRIPTION" Language="ko_KR">
+      <Text>야생 판다</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_GORILLA_NAME" Language="ko_KR">
+      <Text>고릴라</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_GORILLA_DESCRIPTION" Language="ko_KR">
+      <Text>야생 고릴라</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HYENA_NAME" Language="ko_KR">
+      <Text>하이에나</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HYENA_DESCRIPTION" Language="ko_KR">
+      <Text>야생 하이에나</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_RHINOCEROS_NAME" Language="ko_KR">
+      <Text>코뿔소</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_RHINOCEROS_DESCRIPTION" Language="ko_KR">
+      <Text>야생 코뿔소</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HIPPO_NAME" Language="ko_KR">
+      <Text>하마</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HIPPO_DESCRIPTION" Language="ko_KR">
+      <Text>야생 하마</Text>
+    </Row>	
+	
+    <Row Tag="LOC_UNIT_BIGCATS_LION_NAME" Language="ko_KR">
+      <Text>사자</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_LION_DESCRIPTION" Language="ko_KR">
+      <Text>야생 사자</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_JAGUAR_NAME" Language="ko_KR">
+      <Text>재규어</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_JAGUAR_DESCRIPTION" Language="ko_KR">
+      <Text>야생 재규어</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_PANTHER_NAME" Language="ko_KR">
+      <Text>흑표범</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_PANTHER_DESCRIPTION" Language="ko_KR">
+      <Text>야생 흑표범</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_TIGER_NAME" Language="ko_KR">
+      <Text>호랑이</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_TIGER_DESCRIPTION" Language="ko_KR">
+      <Text>야생 호랑이</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_WHITE_TIGER_NAME" Language="ko_KR">
+      <Text>흰 호랑이</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_WHITE_TIGER_DESCRIPTION" Language="ko_KR">
+      <Text>야생 흰 호랑이</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_WOLF_NAME" Language="ko_KR">
+      <Text>늑대</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_WOLF_DESCRIPTION" Language="ko_KR">
+      <Text>야생 늑대</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_MANEDWOLF_NAME" Language="ko_KR">
+      <Text>갈기늑대</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_MANEDWOLF_DESCRIPTION" Language="ko_KR">
+      <Text>야생 갈기늑대</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_BLACKBEAR_NAME" Language="ko_KR">
+      <Text>흑곰</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_BLACKBEAR_DESCRIPTION" Language="ko_KR">
+      <Text>야생 흑곰</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_SPECTACLEDBEAR_NAME" Language="ko_KR">
+      <Text>안경곰</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_SPECTACLEDBEAR_DESCRIPTION" Language="ko_KR">
+      <Text>야생 안경곰</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_JACKAL_NAME" Language="ko_KR">
+      <Text>자칼</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_JACKAL_DESCRIPTION" Language="ko_KR">
+      <Text>야생 자칼</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_DINGO_NAME" Language="ko_KR">
+      <Text>딩고</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_DINGO_DESCRIPTION" Language="ko_KR">
+      <Text>야생 딩고</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_TASMANIANWOLF_NAME" Language="ko_KR">
+      <Text>태즈메이니아주머니늑대</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_TASMANIANWOLF_DESCRIPTION" Language="ko_KR">
+      <Text>야생 태즈메이니아주머니늑대</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_AMERICANCROCODILE_NAME" Language="ko_KR">
+      <Text>아메리카악어</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_AMERICANCROCODILE_DESCRIPTION" Language="ko_KR">
+      <Text>야생 아메리카악어</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_BLACKCAIMAN_NAME" Language="ko_KR">
+      <Text>검은카이만</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_BLACKCAIMAN_DESCRIPTION" Language="ko_KR">
+      <Text>야생 검은카이만</Text>
+    </Row>	
+
+  <Row Tag="LOC_UNIT_ANIMAL_MANTA_NAME" Language="ko_KR">
+      <Text>만타</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_MANTA_DESCRIPTION" Language="ko_KR">
+      <Text>야생 만타</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_ORCA_NAME" Language="ko_KR">
+      <Text>범고래</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_ORCA_DESCRIPTION" Language="ko_KR">
+      <Text>야생 범고래</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_TIGERSHARK_NAME" Language="ko_KR">
+      <Text>뱀상어</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_TIGERSHARK_DESCRIPTION" Language="ko_KR">
+      <Text>야생 뱀상어</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_BULLSHARK_NAME" Language="ko_KR">
+      <Text>황소상어</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_BULLSHARK_DESCRIPTION" Language="ko_KR">
+      <Text>야생 황소상어</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_HAMMERHEAD_NAME" Language="ko_KR">
+      <Text>귀상어과</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HAMMERHEAD_DESCRIPTION" Language="ko_KR">
+      <Text>야생 귀상어과</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_WHITESHARK_NAME" Language="ko_KR">
+      <Text>백상아리</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_WHITESHARK_DESCRIPTION" Language="ko_KR">
+      <Text>야생 백상아리</Text>
+    </Row>	
+
+  <Row Tag="LOC_UNIT_ANIMAL_KRAKEN_NAME" Language="ko_KR">
+      <Text>크라켄</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_KRAKEN_DESCRIPTION" Language="ko_KR">
+      <Text>야생 크라켄</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_HUMPBACK_WHALE_NAME" Language="ko_KR">
+      <Text>혹등고래</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HUMPBACK_WHALE_DESCRIPTION" Language="ko_KR">
+      <Text>야생 혹등고래</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_CHEETAH_NAME" Language="ko_KR">
+      <Text>치타</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_CHEETAH_DESCRIPTION" Language="ko_KR">
+      <Text>야생 치타</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_FRESHWATER_CROCODILE_NAME" Language="ko_KR">
+      <Text>민물악어</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_FRESHWATER_CROCODILE_DESCRIPTION" Language="ko_KR">
+      <Text>야생 민물악어</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_NILE_CROCODILE_NAME" Language="ko_KR">
+      <Text>나일악어</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_NILE_CROCODILE_DESCRIPTION" Language="ko_KR">
+      <Text>야생 나일악어</Text>
+    </Row>		
+
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BARBARIANS_OCEAN_NAME" Language="ko_KR">
+      <Text>해양 동물</Text>
+    </Row>	
+
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BARBARIANS_OCEAN_DESCRIPTION" Language="ko_KR">
+      <Text>바다에서 움직일 수 있다</Text>
+    </Row>	
+	
+
+	
+	
+	
+	
+	
+    <Row Tag="LOC_UNIT_ANIMAL_PUMA_NAME" Language="pl_PL">
+      <Text>Puma</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_PUMA_DESCRIPTION" Language="pl_PL">
+      <Text>dzika Puma</Text>
+    </Row>
+	
+	 <Row Tag="LOC_UNIT_BIGCATS_LEOPARD_NAME" Language="pl_PL">
+      <Text>Lampart</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_LEOPARD_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Lampart</Text>
+    </Row>
+	
+		 <Row Tag="LOC_UNIT_BIGCATS_SNOW_LEOPARD_NAME" Language="pl_PL">
+      <Text>Pantera Śnieżna</Text>
+    </Row>
+	
+    <Row Tag="LOC_UNIT_BIGCATS_SNOW_LEOPARD_DESCRIPTION" Language="pl_PL">
+      <Text>dzika Pantera Śnieżna</Text>
+    </Row>	
+	
+    <Row Tag="LOC_UNIT_ANIMAL_GRIZZLYBEAR_NAME" Language="pl_PL">
+      <Text>Niedźwiedź</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_GRIZZLYBEAR_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Niedźwiedź</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_POLARBEAR_NAME" Language="pl_PL">
+      <Text>Niedźwiedź Polarny</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_POLARBEAR_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Niedźwiedź Polarny</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_PANDA_NAME" Language="pl_PL">
+      <Text>Panda</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_PANDA_DESCRIPTION" Language="pl_PL">
+      <Text>dzika Panda</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_GORILLA_NAME" Language="pl_PL">
+      <Text>Goryl</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_GORILLA_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Goryl</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HYENA_NAME" Language="pl_PL">
+      <Text>Hiena</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HYENA_DESCRIPTION" Language="pl_PL">
+      <Text>dzika Hiena</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_RHINOCEROS_NAME" Language="pl_PL">
+      <Text>Nosorożec</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_RHINOCEROS_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Nosorożec</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HIPPO_NAME" Language="pl_PL">
+      <Text>Hipopotam</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HIPPO_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Hipopotam</Text>
+    </Row>	
+	
+    <Row Tag="LOC_UNIT_BIGCATS_LION_NAME" Language="pl_PL">
+      <Text>Lew</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_LION_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Lew</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_JAGUAR_NAME" Language="pl_PL">
+      <Text>Jaguar</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_JAGUAR_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Jaguar</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_PANTHER_NAME" Language="pl_PL">
+      <Text>Pantera</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_PANTHER_DESCRIPTION" Language="pl_PL">
+      <Text>dzika Pantera</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_TIGER_NAME" Language="pl_PL">
+      <Text>Tygrys</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_TIGER_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Tygrys</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_WHITE_TIGER_NAME" Language="pl_PL">
+      <Text>Biały Tygrys</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_WHITE_TIGER_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Biały Tygrys</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_WOLF_NAME" Language="pl_PL">
+      <Text>Wilk</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_WOLF_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Wilk</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_MANEDWOLF_NAME" Language="pl_PL">
+      <Text>Wilk Grzywiasty</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_MANEDWOLF_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Wilk Grzywiasty</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_BLACKBEAR_NAME" Language="pl_PL">
+      <Text>Niedźwiedź Czarny</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_BLACKBEAR_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Niedźwiedź Czarny</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_SPECTACLEDBEAR_NAME" Language="pl_PL">
+      <Text>Spectacled Bear</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_SPECTACLEDBEAR_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Spectacled Bear</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_JACKAL_NAME" Language="pl_PL">
+      <Text>Jackal</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_JACKAL_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Jackal</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_DINGO_NAME" Language="pl_PL">
+      <Text>Dingo</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_DINGO_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Dingo</Text>
+    </Row>
+
+  <Row Tag="LOC_UNIT_ANIMAL_TASMANIANWOLF_NAME" Language="pl_PL">
+      <Text>Wilkowór Tasmański</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_TASMANIANWOLF_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Wilkowór Tasmański</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_AMERICANCROCODILE_NAME" Language="pl_PL">
+      <Text>Krokodyl Amerykański</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_AMERICANCROCODILE_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Krokodyl Amerykański</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_BLACKCAIMAN_NAME" Language="pl_PL">
+      <Text>Kajman Czarny</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_BLACKCAIMAN_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Kajman Czarny</Text>
+    </Row>	
+
+  <Row Tag="LOC_UNIT_ANIMAL_MANTA_NAME" Language="pl_PL">
+      <Text>Manta</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_MANTA_DESCRIPTION" Language="pl_PL">
+      <Text>dzika Manta</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_ORCA_NAME" Language="pl_PL">
+      <Text>Orka</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_ORCA_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Orka</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_TIGERSHARK_NAME" Language="pl_PL">
+      <Text>Rekin Tygrysi</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_TIGERSHARK_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Rekin Tygrysi</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_BULLSHARK_NAME" Language="pl_PL">
+      <Text>Żarłacz Tępogłowy</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_BULLSHARK_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Żarłacz Tępogłowy</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_HAMMERHEAD_NAME" Language="pl_PL">
+      <Text>Młotowate</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HAMMERHEAD_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Młotowate</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_WHITESHARK_NAME" Language="pl_PL">
+      <Text>Żarłacz Biały</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_WHITESHARK_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Żarłacz Biały</Text>
+    </Row>	
+
+  <Row Tag="LOC_UNIT_ANIMAL_KRAKEN_NAME" Language="pl_PL">
+      <Text>Kraken</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_KRAKEN_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Kraken</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_HUMPBACK_WHALE_NAME" Language="pl_PL">
+      <Text>Długopłetwiec oceaniczny</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HUMPBACK_WHALE_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Długopłetwiec oceaniczny</Text>
+    </Row>	
+	
+  <Row Tag="LOC_UNIT_ANIMAL_CHEETAH_NAME" Language="pl_PL">
+      <Text>Gepard</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_CHEETAH_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Gepard</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_FRESHWATER_CROCODILE_NAME" Language="pl_PL">
+      <Text>Krokodyl Słodkowodny</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_FRESHWATER_CROCODILE_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Krokodyl Słodkowodny</Text>
+    </Row>		
+	
+  <Row Tag="LOC_UNIT_ANIMAL_NILE_CROCODILE_NAME" Language="pl_PL">
+      <Text>Krokodyl Nilowy</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_NILE_CROCODILE_DESCRIPTION" Language="pl_PL">
+      <Text>dziki Krokodyl Nilowy</Text>
+    </Row>		
+	
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BARBARIANS_OCEAN_NAME" Language="pl_PL">
+      <Text>Zwierzę Oceaniczne</Text>
+    </Row>	
+
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BARBARIANS_OCEAN_DESCRIPTION" Language="pl_PL">
+      <Text>Może poruszać się w oceanie</Text>
+    </Row>	
+	
+	
+	
+    <Row Tag="LOC_UNIT_ANIMAL_PUMA_NAME" Language="zh_Hans_CN">
+      <Text>美洲狮</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_PUMA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的美洲狮</Text>
+    </Row>
+	
+	<Row Tag="LOC_UNIT_BIGCATS_LEOPARD_NAME" Language="zh_Hans_CN">
+      <Text>豹</Text>
+	</Row>
+    <Row Tag="LOC_UNIT_BIGCATS_LEOPARD_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的豹</Text>
+    </Row>
+	
+	<Row Tag="LOC_UNIT_BIGCATS_SNOW_LEOPARD_NAME" Language="zh_Hans_CN">
+      <Text>雪豹</Text>
+	</Row>
+    <Row Tag="LOC_UNIT_BIGCATS_SNOW_LEOPARD_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的雪豹</Text>
+    </Row>	
+	
+	<Row Tag="LOC_UNIT_ANIMAL_GRIZZLYBEAR_NAME" Language="zh_Hans_CN">
+      <Text>熊</Text>
+	</Row>
+	<Row Tag="LOC_UNIT_ANIMAL_GRIZZLYBEAR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的熊</Text>
+	</Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_POLARBEAR_NAME" Language="zh_Hans_CN">
+      <Text>北极熊</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_POLARBEAR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的北极熊</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_PANDA_NAME" Language="zh_Hans_CN">
+      <Text>熊猫</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_PANDA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的熊猫</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_GORILLA_NAME" Language="zh_Hans_CN">
+      <Text>大猩猩</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_GORILLA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的大猩猩</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HYENA_NAME" Language="zh_Hans_CN">
+      <Text>鬣狗</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_HYENA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的鬣狗</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_RHINOCEROS_NAME" Language="zh_Hans_CN">
+      <Text>犀牛</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_RHINOCEROS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的犀牛</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_ANIMAL_HIPPO_NAME" Language="zh_Hans_CN">
+      <Text>河马</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_HIPPO_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的河马</Text>
+    </Row>	
+	
+    <Row Tag="LOC_UNIT_BIGCATS_LION_NAME" Language="zh_Hans_CN">
+      <Text>狮子</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_LION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的狮子</Text>
+    </Row>
+	
+    <Row Tag="LOC_UNIT_BIGCATS_JAGUAR_NAME" Language="zh_Hans_CN">
+      <Text>美洲豹</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_JAGUAR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的美洲豹</Text>
+    </Row>
+	
+    <Row Tag="LOC_UNIT_BIGCATS_PANTHER_NAME" Language="zh_Hans_CN">
+      <Text>黑豹</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_PANTHER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的黑豹</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BIGCATS_TIGER_NAME" Language="zh_Hans_CN">
+      <Text>老虎</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_TIGER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的老虎</Text>
+    </Row>
+	
+    <Row Tag="LOC_UNIT_BIGCATS_WHITE_TIGER_NAME" Language="zh_Hans_CN">
+      <Text>白虎</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BIGCATS_WHITE_TIGER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的白虎</Text>
+    </Row>
+	
+    <Row Tag="LOC_UNIT_ANIMAL_WOLF_NAME" Language="zh_Hans_CN">
+      <Text>狼</Text>
+    </Row>
+	<Row Tag="LOC_UNIT_ANIMAL_WOLF_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的狼</Text>
+	</Row>	
+	
+	<Row Tag="LOC_UNIT_ANIMAL_MANEDWOLF_NAME" Language="zh_Hans_CN">
+      <Text>鬓狼</Text>
+    </Row>
+	<Row Tag="LOC_UNIT_ANIMAL_MANEDWOLF_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的鬓狼</Text>
+    </Row>
+
+	<Row Tag="LOC_UNIT_ANIMAL_BLACKBEAR_NAME" Language="zh_Hans_CN">
+      <Text>黑熊</Text>
+    </Row>
+	<Row Tag="LOC_UNIT_ANIMAL_BLACKBEAR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的黑熊</Text>
+    </Row>
+
+	<Row Tag="LOC_UNIT_ANIMAL_SPECTACLEDBEAR_NAME" Language="zh_Hans_CN">
+      <Text>眼镜熊</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_SPECTACLEDBEAR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的眼镜熊</Text>
+    </Row>	
+	
+	<Row Tag="LOC_UNIT_ANIMAL_JACKAL_NAME" Language="zh_Hans_CN">
+      <Text>豺狼</Text>
+    </Row>
+	<Row Tag="LOC_UNIT_ANIMAL_JACKAL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的豺狼</Text>
+	</Row>
+
+	<Row Tag="LOC_UNIT_ANIMAL_DINGO_NAME" Language="zh_Hans_CN">
+      <Text>澳洲野犬</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_DINGO_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的澳洲野犬</Text>
+    </Row>
+
+	<Row Tag="LOC_UNIT_ANIMAL_TASMANIANWOLF_NAME" Language="zh_Hans_CN">
+      <Text>袋狼</Text>
+	</Row>
+	<Row Tag="LOC_UNIT_ANIMAL_TASMANIANWOLF_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的袋狼</Text>
+	</Row>		
+	
+	<Row Tag="LOC_UNIT_ANIMAL_AMERICANCROCODILE_NAME" Language="zh_Hans_CN">
+      <Text>美洲鳄</Text>
+	</Row>
+	<Row Tag="LOC_UNIT_ANIMAL_AMERICANCROCODILE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的美洲鳄</Text>
+	</Row>		
+	
+	<Row Tag="LOC_UNIT_ANIMAL_BLACKCAIMAN_NAME" Language="zh_Hans_CN">
+      <Text>黑凯门鳄</Text>
+	</Row>
+	<Row Tag="LOC_UNIT_ANIMAL_BLACKCAIMAN_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的黑凯门鳄</Text>
+	</Row>	
+
+	<Row Tag="LOC_UNIT_ANIMAL_MANTA_NAME" Language="zh_Hans_CN">
+      <Text>毯魟</Text>
+    </Row>
+	<Row Tag="LOC_UNIT_ANIMAL_MANTA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的毯魟</Text>
+	</Row>	
+	
+	<Row Tag="LOC_UNIT_ANIMAL_ORCA_NAME" Language="zh_Hans_CN">
+      <Text>虎鲸</Text>
+    </Row>
+	<Row Tag="LOC_UNIT_ANIMAL_ORCA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的虎鲸</Text>
+    </Row>		
+	
+	<Row Tag="LOC_UNIT_ANIMAL_TIGERSHARK_NAME" Language="zh_Hans_CN">
+      <Text>虎鲨</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_TIGERSHARK_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的虎鲨</Text>
+    </Row>		
+	
+	<Row Tag="LOC_UNIT_ANIMAL_BULLSHARK_NAME" Language="zh_Hans_CN">
+      <Text>牛鲨</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_BULLSHARK_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的牛鲨</Text>
+    </Row>		
+	
+	<Row Tag="LOC_UNIT_ANIMAL_HAMMERHEAD_NAME" Language="zh_Hans_CN">
+      <Text>锤头鲨</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_HAMMERHEAD_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的锤头鲨</Text>
+    </Row>		
+	
+	<Row Tag="LOC_UNIT_ANIMAL_WHITESHARK_NAME" Language="zh_Hans_CN">
+      <Text>白鲨</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_WHITESHARK_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的白鲨</Text>
+    </Row>	
+
+	<Row Tag="LOC_UNIT_ANIMAL_KRAKEN_NAME" Language="zh_Hans_CN">
+      <Text>挪威海怪</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_KRAKEN_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的挪威海怪</Text>
+    </Row>	
+	
+	<Row Tag="LOC_UNIT_ANIMAL_HUMPBACK_WHALE_NAME" Language="zh_Hans_CN">
+      <Text>座头鲸</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_HUMPBACK_WHALE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的座头鲸</Text>
+    </Row>	
+	
+	<Row Tag="LOC_UNIT_ANIMAL_CHEETAH_NAME" Language="zh_Hans_CN">
+      <Text>猎豹</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_CHEETAH_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的猎豹</Text>
+    </Row>		
+	
+	<Row Tag="LOC_UNIT_ANIMAL_FRESHWATER_CROCODILE_NAME" Language="zh_Hans_CN">
+      <Text>淡水鳄</Text>
+    </Row>
+	<Row Tag="LOC_UNIT_ANIMAL_FRESHWATER_CROCODILE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的淡水鳄</Text>
+	</Row>		
+	
+	<Row Tag="LOC_UNIT_ANIMAL_NILE_CROCODILE_NAME" Language="zh_Hans_CN">
+      <Text>尼罗鳄</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_ANIMAL_NILE_CROCODILE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>一只野生的尼罗鳄</Text>
+    </Row>		
+
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BARBARIANS_OCEAN_NAME" Language="zh_Hans_CN">
+      <Text>海洋动物</Text>
+    </Row>	
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BARBARIANS_OCEAN_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>可以在海洋中移动</Text>
+    </Row>	
+</LocalizedText>
+</GameData>

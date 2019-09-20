@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>415</build>
+		<revision>990</revision>
+	</m_Version>
+	<m_ClassName text="Unit"/>
+	<m_PackageName text="animals"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Gorilla"/>
+			<m_ObjectName text="Gorilla"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Hippo"/>
+			<m_ObjectName text="Hippo"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Dingo"/>
+			<m_ObjectName text="Dingo"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Jackal"/>
+			<m_ObjectName text="Jackal"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TasmanianWolf"/>
+			<m_ObjectName text="TasmanianWolf"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AmericanCrocodile"/>
+			<m_ObjectName text="AmericanCrocodile"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BlackCaiman"/>
+			<m_ObjectName text="BlackCaiman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Manta"/>
+			<m_ObjectName text="Manta"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Orca"/>
+			<m_ObjectName text="Orca"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TigerShark"/>
+			<m_ObjectName text="TigerShark"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BullShark"/>
+			<m_ObjectName text="BullShark"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Hammerhead"/>
+			<m_ObjectName text="Hammerhead"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WhiteShark"/>
+			<m_ObjectName text="WhiteShark"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Kraken"/>
+			<m_ObjectName text="Kraken"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HumpbackWhale"/>
+			<m_ObjectName text="HumpbackWhale"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Hyena"/>
+			<m_ObjectName text="Hyena"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HyenaMale"/>
+			<m_ObjectName text="HyenaMale"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FreshwaterCrocodile"/>
+			<m_ObjectName text="FreshwaterCrocodile"/>
+		</Element>
+		<Element>
+			<m_EntryID text="NileCrocodile"/>
+			<m_ObjectName text="NileCrocodile"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

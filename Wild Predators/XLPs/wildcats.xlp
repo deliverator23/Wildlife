@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>415</build>
+		<revision>990</revision>
+	</m_Version>
+	<m_ClassName text="Unit"/>
+	<m_PackageName text="units/wildcats"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Lion"/>
+			<m_ObjectName text="Lion"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lioness"/>
+			<m_ObjectName text="Lioness"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Jaguar"/>
+			<m_ObjectName text="Jaguar"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Puma"/>
+			<m_ObjectName text="Puma"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Tiger"/>
+			<m_ObjectName text="Tiger"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WhiteTiger"/>
+			<m_ObjectName text="WhiteTiger"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Cheetah"/>
+			<m_ObjectName text="Cheetah"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leopard"/>
+			<m_ObjectName text="Leopard"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Panther"/>
+			<m_ObjectName text="Panther"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SnowLeopard"/>
+			<m_ObjectName text="SnowLeopard"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

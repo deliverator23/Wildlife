@@ -130,7 +130,7 @@ function WildPredators(iPlayer)
 
                 local eligiblePlots = GetValidPlotsFromPlotIndexTable(Map.GetContinentPlots(iContinent))
 
-                if eligiblePlots ~= nil and tablelength(eligiblePlots) > 0 and unitSpawnContinent.ContinentType == spawningRuleContinent then
+                if eligiblePlots ~= nil and tablelength(eligiblePlots) > 0 and UnitCanSpawnInCurrentEra(unitSpawnContinent.UnitType) and unitSpawnContinent.ContinentType == spawningRuleContinent then
 
                     local continentPlots = m_ContinentPlots[iContinent]
                     local continentRandomSumSize = m_BaseContinentSumRandomSize[m_ContinentToBaseContinent[iContinent]]
@@ -207,17 +207,8 @@ local iTargetNumberOceanPlotsPerAnimal = 140
 --adjust as needed for enough but not too many ocean animals
 local tOceanPlots, iNumberOceanPlots, bNoMoreSeaUnitsCanBeSpawned = {}, 1, true
 local iOceanTile = GameInfo.Terrains["TERRAIN_OCEAN"].Index
-local tSpawnableOceanUnits = {
-    GameInfo.Units["UNIT_ANIMAL_MANTA"].Index,
-    GameInfo.Units["UNIT_ANIMAL_KRAKEN"].Index,
-    GameInfo.Units["UNIT_ANIMAL_HUMPBACK_WHALE"].Index,
-    GameInfo.Units["UNIT_ANIMAL_ORCA"].Index,
-    GameInfo.Units["UNIT_ANIMAL_TIGERSHARK"].Index,
-    GameInfo.Units["UNIT_ANIMAL_BULLSHARK"].Index,
-    GameInfo.Units["UNIT_ANIMAL_HAMMERHEAD"].Index,
-    GameInfo.Units["UNIT_ANIMAL_WHITESHARK"].Index
-}
 
+local tSpawnableOceanUnits = {}
 
 for i = 0, Map.GetPlotCount() - 1, 1 do
     local pPlot = Map.GetPlotByIndex(i);
@@ -231,6 +222,30 @@ end
 local tBarbOceanUnitTypes = {}
 for k, v in ipairs(tSpawnableOceanUnits) do
     tBarbOceanUnitTypes[v] = "true"
+end
+
+function GetSpawnableOceanUnits()
+    if tSpawnableOceanUnits == nil then
+        for unitSpawnTerrain in GameInfo.UnitSpawnTerrains() do
+            if unitSpawnTerrain.TerrainType == "TERRAIN_OCEAN" then
+                table.insert(tSpawnableOceanUnits, unitSpawnTerrain.UnitType)
+            end
+        end
+    end
+    return tSpawnableOceanUnits
+end
+
+function UnitCanSpawnInCurrentEra(unitType)
+    local unitSpawnEra = GameInfo.UnitSpawnEras[unitType]
+    local minEra = GameInfo.Eras[unitSpawnEra.MinEraType].Index
+    local maxEra = GameInfo.Eras[unitSpawnEra.MaxEraType].Index
+    local canSpawnInEra = false
+
+    if (Game.GetEras():GetCurrentEra() >= minEra) and (Game.GetEras():GetCurrentEra() <= maxEra) then
+        canSpawnInEra = true
+    end
+
+    return canSpawnInEra
 end
 
 function GetNumberAllowedOceanPredators(iPlayer)
@@ -278,7 +293,8 @@ function SpawnOceanPredators(iPlayer)
                         end
                     end
                     if (bPlotHasUnit == false) then
-                        local iUnitToSpawn = tSpawnableOceanUnits[math.random(table.count(tSpawnableOceanUnits))]
+                        local spawnableOceanUnits = GetSpawnableOceanUnits()
+                        local iUnitToSpawn = spawnableOceanUnits[math.random(table.count(spawnableOceanUnits))]
                         local pUnits = pPlayer:GetUnits()
                         pUnits:Create(iUnitToSpawn, iPlotX, iPlotY); -- Create Unit
                         iNumberToSpawnThisTurn = iNumberToSpawnThisTurn - 1

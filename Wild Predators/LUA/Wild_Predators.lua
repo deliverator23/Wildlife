@@ -84,12 +84,22 @@ function WildPredators(iPlayer)
 
     if m_BaseContinentSumRandomSize == nil then
         m_BaseContinentSumRandomSize = {}
-        for unitSpawnContinent in GameInfo.UnitSpawnContinents() do
-            if m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType] == nil then
-                m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType] = unitSpawnContinent.RandomSize
-            else
-                local current_sum = m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType]
-                m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType] = current_sum + unitSpawnContinent.RandomSize
+        for eraIndex = 1, 9 do
+            for unitSpawnContinent in GameInfo.UnitSpawnContinents() do
+                local currentEra = getelementatpos(Game.GetEras, eraIndex)
+
+                if m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType] == nil then
+                    m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType] = {}
+                end
+
+                if m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType][currentEra] == nil then
+                    m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType][currentEra] = 0
+                end
+
+                if UnitCanSpawnInEra(unitSpawnContinent.UnitType, currentEra) then
+                    local current_sum = m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType][currentEra]
+                    m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType][currentEra] = current_sum + unitSpawnContinent.RandomSize
+                end
             end
         end
     end
@@ -138,14 +148,15 @@ function WildPredators(iPlayer)
             for unitSpawnContinent in GameInfo.UnitSpawnContinents() do
 
                 local eligiblePlots = GetValidPlotsFromPlotIndexTable(Map.GetContinentPlots(iContinent))
+                local currentEra = Game.GetEras():GetCurrentEra()
 
-                if eligiblePlots ~= nil and tablelength(eligiblePlots) > 0 and UnitCanSpawnInCurrentEra(unitSpawnContinent.UnitType) and unitSpawnContinent.ContinentType == spawningRuleContinent then
+                if eligiblePlots ~= nil and tablelength(eligiblePlots) > 0 and UnitCanSpawnInEra(unitSpawnContinent.UnitType, currentEra) and unitSpawnContinent.ContinentType == spawningRuleContinent then
 
                     local continentPlots = m_ContinentPlots[iContinent]
-                    local continentRandomSumSize = m_BaseContinentSumRandomSize[m_ContinentToBaseContinent[iContinent]]
+                    local continentRandomSumSize = m_BaseContinentSumRandomSize[m_ContinentToBaseContinent[iContinent]][currentEra]
                     local randomSize = math.floor(unitSpawnContinent.RandomSize * continentRandomSumSize / continentPlots / masterProbabilityAdjustment)
 
-                    print(GameInfo.Continents[iContinent].ContinentType .. " " .. spawningRuleContinent .. " " .. unitSpawnContinent.UnitType .. " random size: " .. randomSize )
+                    print(GameInfo.Continents[iContinent].ContinentType .. " " .. spawningRuleContinent .. " " .. unitSpawnContinent.UnitType .. " random size: " .. randomSize)
 
                     if math.random(randomSize) == 1 then
 
@@ -239,13 +250,13 @@ function GetSpawnableOceanUnits()
     return tSpawnableOceanUnits
 end
 
-function UnitCanSpawnInCurrentEra(unitType)
+function UnitCanSpawnInEra(unitType, testEra)
     local unitSpawnEra = GameInfo.UnitSpawnEras[unitType]
     local minEra = GameInfo.Eras[unitSpawnEra.MinEraType].Index
     local maxEra = GameInfo.Eras[unitSpawnEra.MaxEraType].Index
     local canSpawnInEra = false
 
-    if (Game.GetEras():GetCurrentEra() >= minEra) and (Game.GetEras():GetCurrentEra() <= maxEra) then
+    if (testEra >= minEra) and (testEra <= maxEra) then
         canSpawnInEra = true
     end
 

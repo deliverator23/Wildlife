@@ -37,7 +37,6 @@ function GetValidPlotsFromPlotIndexTable(tTable)
         local pPlot = Map.GetPlotByIndex(iPlotIndex)
         if (pPlot ~= nil) then
             local iPlotX, iPlotY = pPlot:GetX(), pPlot:GetY()
-            --print("Continent Plot found at X" .. iPlotX .. ", Y" .. iPlotY)
             if (pPlot:GetOwner() == -1) and (pPlot:IsMountain() == false) and (pPlot:IsWater() == false) and (pPlot:IsNaturalWonder() == false) and (pPlot:IsImpassable() == false) then
                 local bPlotHasUnit = false
                 local unitList :table = Units.GetUnitsInPlotLayerID(iPlotX, iPlotY, MapLayers.ANY)
@@ -84,21 +83,21 @@ function WildPredators(iPlayer)
 
     if m_BaseContinentSumRandomSize == nil then
         m_BaseContinentSumRandomSize = {}
-        for eraIndex = 1, 9 do
+		for currentEra in GameInfo.Eras() do
             for unitSpawnContinent in GameInfo.UnitSpawnContinents() do
-                local currentEra = getelementatpos(Game.GetEras, eraIndex)
-
+                local currentEraType = currentEra.EraType
+				
                 if m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType] == nil then
                     m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType] = {}
                 end
 
-                if m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType][currentEra] == nil then
-                    m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType][currentEra] = 0
+                if m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType][currentEraType] == nil then
+                    m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType][currentEraType] = 0
                 end
 
-                if UnitCanSpawnInEra(unitSpawnContinent.UnitType, currentEra) then
-                    local current_sum = m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType][currentEra]
-                    m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType][currentEra] = current_sum + unitSpawnContinent.RandomSize
+                if UnitCanSpawnInEra(unitSpawnContinent.UnitType, currentEraType) then
+                    local current_sum = m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType][currentEraType]
+                    m_BaseContinentSumRandomSize[unitSpawnContinent.ContinentType][currentEraType] = current_sum + unitSpawnContinent.RandomSize
                 end
             end
         end
@@ -130,7 +129,7 @@ function WildPredators(iPlayer)
             local eligiblePlots = GetValidPlotsFromPlotIndexTable(Map.GetContinentPlots(iContinent))
             m_ContinentPlots[iContinent] = tablelength(eligiblePlots)
 
-            print(GameInfo.Continents[iContinent].ContinentType .. " assigned to " .. m_ContinentToBaseContinent[iContinent] .. ", plots: " .. m_ContinentPlots[iContinent] .. ", random size sum: " .. m_BaseContinentSumRandomSize[m_ContinentToBaseContinent[iContinent]])
+            print(GameInfo.Continents[iContinent].ContinentType .. " assigned to " .. m_ContinentToBaseContinent[iContinent] .. ", plots: " .. m_ContinentPlots[iContinent])
         end
     end
 
@@ -148,15 +147,15 @@ function WildPredators(iPlayer)
             for unitSpawnContinent in GameInfo.UnitSpawnContinents() do
 
                 local eligiblePlots = GetValidPlotsFromPlotIndexTable(Map.GetContinentPlots(iContinent))
-                local currentEra = Game.GetEras():GetCurrentEra()
+                local currentEra = GameInfo.Eras[Game.GetEras():GetCurrentEra()].EraType
 
                 if eligiblePlots ~= nil and tablelength(eligiblePlots) > 0 and UnitCanSpawnInEra(unitSpawnContinent.UnitType, currentEra) and unitSpawnContinent.ContinentType == spawningRuleContinent then
 
                     local continentPlots = m_ContinentPlots[iContinent]
                     local continentRandomSumSize = m_BaseContinentSumRandomSize[m_ContinentToBaseContinent[iContinent]][currentEra]
                     local randomSize = math.floor(unitSpawnContinent.RandomSize * continentRandomSumSize / continentPlots / masterProbabilityAdjustment)
-
-                    print(GameInfo.Continents[iContinent].ContinentType .. " " .. spawningRuleContinent .. " " .. unitSpawnContinent.UnitType .. " random size: " .. randomSize)
+					
+                    print(GameInfo.Continents[iContinent].ContinentType .. " " .. spawningRuleContinent .. " " .. unitSpawnContinent.UnitType .. " random size: " .. randomSize .. " = " .. unitSpawnContinent.RandomSize .. " * " .. continentRandomSumSize .. " / " .. continentPlots .. " / " .. masterProbabilityAdjustment)
 
                     if math.random(randomSize) == 1 then
 
@@ -237,26 +236,33 @@ for i = 0, Map.GetPlotCount() - 1, 1 do
     end
 end
 
-local tSpawnableOceanUnits = {}
+local tSpawnableOceanUnits = nil
 
 function GetSpawnableOceanUnits()
     if tSpawnableOceanUnits == nil then
+		tSpawnableOceanUnits = {}
         for unitSpawnTerrain in GameInfo.UnitSpawnTerrains() do
-            if unitSpawnTerrain.TerrainType == "TERRAIN_OCEAN" then
+			if unitSpawnTerrain.TerrainType == "TERRAIN_OCEAN" then
                 table.insert(tSpawnableOceanUnits, unitSpawnTerrain.UnitType)
             end
         end
     end
-    return tSpawnableOceanUnits
 end
 
 function UnitCanSpawnInEra(unitType, testEra)
-    local unitSpawnEra = GameInfo.UnitSpawnEras[unitType]
+	local unitSpawnEra;
+	for curUnitSpawnEra in GameInfo.UnitSpawnEras() do
+		if curUnitSpawnEra.UnitType == unitType then
+			unitSpawnEra = curUnitSpawnEra
+			break
+		end
+	end
     local minEra = GameInfo.Eras[unitSpawnEra.MinEraType].Index
     local maxEra = GameInfo.Eras[unitSpawnEra.MaxEraType].Index
     local canSpawnInEra = false
 
-    if (testEra >= minEra) and (testEra <= maxEra) then
+	local testEraId = GameInfo.Eras[testEra].Index
+    if (testEraId >= minEra) and (testEraId <= maxEra) then
         canSpawnInEra = true
     end
 
@@ -281,6 +287,7 @@ function GetNumberAllowedOceanPredators(iPlayer)
 end
 
 function SpawnOceanPredators(iPlayer)
+	GetSpawnableOceanUnits()
     if (bNoMoreSeaUnitsCanBeSpawned == true) then return end
     if (PlayerConfigurations[iPlayer]:GetCivilizationTypeName() == "CIVILIZATION_BARBARIAN") then
         local pPlayer = Players[iPlayer];
@@ -308,9 +315,11 @@ function SpawnOceanPredators(iPlayer)
                         end
                     end
                     if (bPlotHasUnit == false) then
-                        local spawnableOceanUnits = GetSpawnableOceanUnits()
-                        local unitTypeToSpawn = spawnableOceanUnits[math.random(table.count(spawnableOceanUnits))]
-                        if UnitCanSpawnInCurrentEra(unitTypeToSpawn) then
+                        local unitTypeToSpawn = tSpawnableOceanUnits[math.random(table.count(tSpawnableOceanUnits))]
+						local currentEra = GameInfo.Eras[Game.GetEras():GetCurrentEra()].EraType
+                        if UnitCanSpawnInEra(unitTypeToSpawn, currentEra) then
+							print("spawning...")
+                            print(unitTypeToSpawn .. " at " .. iPlotX .. "," .. iPlotY)
                             local iUnitToSpawn = GameInfo.Units[unitTypeToSpawn].Index
                             local pUnits = pPlayer:GetUnits()
                             pUnits:Create(iUnitToSpawn, iPlotX, iPlotY); -- Create Unit

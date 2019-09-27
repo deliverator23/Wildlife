@@ -30,14 +30,14 @@ function has_value(tab, val)
     return false
 end
 
-function GetValidPlotsFromPlotIndexTable(tTable)
+function GetValidPlotsFromPlotIndexTable(tTable, canSpawnWithinTerritory)
     local tNewTable = {}
     local iCount = 1
     for i, iPlotIndex in ipairs(tTable) do
         local pPlot = Map.GetPlotByIndex(iPlotIndex)
         if (pPlot ~= nil) then
             local iPlotX, iPlotY = pPlot:GetX(), pPlot:GetY()
-            if (pPlot:GetOwner() == -1) and (pPlot:IsMountain() == false) and (pPlot:IsWater() == false) and (pPlot:IsNaturalWonder() == false) and (pPlot:IsImpassable() == false) then
+            if (pPlot:GetOwner() == -1 or canSpawnWithinTerritory) and (pPlot:IsMountain() == false) and (pPlot:IsWater() == false) and (pPlot:IsNaturalWonder() == false) and (pPlot:IsImpassable() == false) and (pPlot:IsCity() == false) then
                 local bPlotHasUnit = false
                 local unitList :table = Units.GetUnitsInPlotLayerID(iPlotX, iPlotY, MapLayers.ANY)
                 if unitList ~= nil then
@@ -146,7 +146,17 @@ function WildPredators(iPlayer)
 
             for unitSpawnContinent in GameInfo.UnitSpawnContinents() do
 
-                local eligiblePlots = GetValidPlotsFromPlotIndexTable(Map.GetContinentPlots(iContinent))
+                local canSpawnWithinTerritory = false
+                for item in GameInfo.TypeTags() do
+                    if item.Type == unitSpawnContinent.UnitType then
+                        if item.Tag == 'CLASS_SPAWN_ANYWHERE' then
+                            canSpawnWithinTerritory = true
+                            break
+                        end
+                    end
+                end
+
+                local eligiblePlots = GetValidPlotsFromPlotIndexTable(Map.GetContinentPlots(iContinent), canSpawnWithinTerritory)
                 local currentEra = GameInfo.Eras[Game.GetEras():GetCurrentEra()].EraType
 
                 if eligiblePlots ~= nil and tablelength(eligiblePlots) > 0 and UnitCanSpawnInEra(unitSpawnContinent.UnitType, currentEra) and unitSpawnContinent.ContinentType == spawningRuleContinent then

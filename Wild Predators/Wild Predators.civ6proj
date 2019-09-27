@@ -2,7 +2,7 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Wild Predators</Name>
+    <Name>Wildlife - Wild Animals Mod</Name>
     <Guid>669ac0f9-70b5-4f3c-b7fa-d2f36297c00a</Guid>
     <ProjectGuid>a06507f3-381e-49d2-aa7e-973bc1cfb7b6</ProjectGuid>
     <ModVersion>1</ModVersion>
@@ -28,7 +28,7 @@
     <ArtDef Include="ArtDefs\Units.artdef" />
     <Folder Include="LUA\" />
     <Folder Include="XLPs\" />
-    <None Include="Mod.Art.xml" />
+    <None Include="Wild Predators.Art.xml" />
     <None Include="GettingStarted.html" />
   </ItemGroup>
   <ItemGroup>

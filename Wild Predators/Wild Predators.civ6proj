@@ -12,7 +12,7 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="WildPredators_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="WildPredators_Gameplay"><File>WildPredators_Units.xml</File><File>Wild_Predators_no_embarking.sql</File><File>Wild_Animals_Spawn.sql</File></UpdateDatabase><UpdateIcons id="WildPredators_Icons"><File>WildPredators_Icons.xml</File></UpdateIcons><UpdateText id="WildPredators_Text"><File>WildPredators_Text.xml</File></UpdateText><AddGameplayScripts id="WildPredators_Lua"><File>LUA/Wild_Predators.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="WildPredators_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="WildPredators_Gameplay"><File>Gameplay/Wild_Predators_Units.xml</File><File>Gameplay/Wild_Predators_No_Embarking.sql</File><File>Gameplay/Wild_Predators_Spawn.sql</File></UpdateDatabase><UpdateIcons id="WildPredators_Icons"><File>Icons/WildPredators_Icons.xml</File></UpdateIcons><UpdateText id="WildPredators_Text"><File>Text/WildPredators_Text.xml</File></UpdateText><AddGameplayScripts id="WildPredators_Lua"><File>LUA/Wild_Predators.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
     <AssemblyName>Wild Predators</AssemblyName>
     <RootNamespace>Wild Predators</RootNamespace>
     <Authors>ShiroToraRyu, Deliverator, LeeS</Authors>
@@ -37,13 +37,13 @@
     <ArtDef Include="ArtDefs\Unit_Bins.artdef">
       <SubType>Content</SubType>
     </ArtDef>
-    <Content Include="Gameplay\WildPredators_Units.xml">
+    <Content Include="Gameplay\Wild_Predators_Units.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Gameplay\Wild_Animals_Spawn.sql">
+    <Content Include="Gameplay\Wild_Predators_Spawn.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Gameplay\Wild_Predators_no_embarking.sql">
+    <Content Include="Gameplay\Wild_Predators_No_Embarking.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Icons\WildPredators_Icons.xml">

@@ -27,30 +27,32 @@
     <Folder Include="ArtDefs\" />
     <ArtDef Include="ArtDefs\Units.artdef" />
     <Folder Include="LUA\" />
+    <Folder Include="Gameplay" />
+    <Folder Include="Icons" />
+    <Folder Include="Text" />
     <Folder Include="XLPs\" />
     <None Include="Wild Predators.Art.xml" />
-    <None Include="GettingStarted.html" />
   </ItemGroup>
   <ItemGroup>
     <ArtDef Include="ArtDefs\Unit_Bins.artdef">
       <SubType>Content</SubType>
     </ArtDef>
+    <Content Include="Gameplay\WildPredators_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\Wild_Animals_Spawn.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\Wild_Predators_no_embarking.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\WildPredators_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="LUA\Wild_Predators.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="WildPredators_Icons.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="WildPredators_Text.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="WildPredators_Units.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Wild_Animals_Spawn.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Wild_Predators_no_embarking.sql">
+    <Content Include="Text\WildPredators_Text.xml">
       <SubType>Content</SubType>
     </Content>
     <XLP Include="XLPs\animals.xlp">
